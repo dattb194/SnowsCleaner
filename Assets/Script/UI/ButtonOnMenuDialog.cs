@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ButtonOnMenuDialog : MonoBehaviour
 {
+    
     public GameObject _lock;
     public GameObject _select;
     public Text _name;
@@ -15,6 +16,8 @@ public class ButtonOnMenuDialog : MonoBehaviour
     public enum StateCard { locked, unLock, selecting, unSelect}
 
     public StateCard stateCard = StateCard.locked;
+
+
 
     private void OnEnable()
     {
