@@ -64,9 +64,20 @@ public class GPController : MonoBehaviour
         OnSpawnLevel(_lvNow + 1);
 
     }
+    public void OnNextLevel()
+    {
+        LeveManager.instance.NextLevel(LeveManager.instance.levelNow);
+
+        OnSpawnLevel(LeveManager.instance.levelNow + 1);
+
+    }
     public void ReloadLevel()
     {
         OnSelectLevel(LeveManager.instance.levelNow);
+    }
+    public void OnLevelEnded()
+    {
+        CanvasController.instance.endLevelDialog.OnSetData(LeveManager.instance.levelNow, 2);
     }
     void OnSpawnLevel(int newLv)
     {

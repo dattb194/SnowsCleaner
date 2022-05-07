@@ -16,7 +16,7 @@ public class LevelCompleteDialog : MonoBehaviour
         {
             star[i].gameObject.SetActive(true);
         }
-        txtLv.text = "Level " + _lv;
+        txtLv.text = "Level " + (_lv+1);
 
         gameObject.SetActive(true);
     }

@@ -17,8 +17,6 @@ public class ButtonOnMenuDialog : MonoBehaviour
 
     public StateCard stateCard = StateCard.locked;
 
-
-
     private void OnEnable()
     {
         if (LeveManager.instance.LevelUnLock < level)

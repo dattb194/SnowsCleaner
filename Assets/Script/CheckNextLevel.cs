@@ -39,6 +39,7 @@ public class CheckNextLevel : MonoBehaviour
 
     public void ForceNextLevel()
     {
-        GPController.instance.OnNextLevel(index);
+        //GPController.instance.OnNextLevel(index);
+        GPController.instance.OnLevelEnded();
     }
 }

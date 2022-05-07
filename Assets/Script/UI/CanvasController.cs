@@ -8,6 +8,7 @@ public class CanvasController : MonoBehaviour
 
     public LevelDialog levelUI;
     public MenuLevelDialog menuLevel;
+    public LevelCompleteDialog endLevelDialog;
 
     public UnityEngine.UI.Text txtLevelPlayingDisplay;
 
