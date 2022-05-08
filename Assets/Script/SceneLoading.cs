@@ -10,7 +10,7 @@ public class SceneLoading : MonoBehaviour
     public Transform loadingImg;
     private void Start()
     {
-        LoadingScene();
+        //LoadingScene();
     }
     public void LoadingScene()
     {

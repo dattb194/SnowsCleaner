@@ -12,13 +12,13 @@ public class Flower : MonoBehaviour
         yield return null;
         transform.localScale = Vector3.zero;
 
-        transform.GetChild((int)Random.Range(0, transform.childCount - 1)).gameObject.SetActive(true);
+        //transform.GetChild((int)Random.Range(0, transform.childCount - 1)).gameObject.SetActive(true);
 
-        float _rd = Random.Range(maxSize/2,maxSize);
-        while (transform.localScale.x < _rd)
-        {
-            transform.localScale += new Vector3(.002f, .002f, .002f);
-            yield return null;
-        }
+        //float _rd = Random.Range(maxSize/2,maxSize);
+        //while (transform.localScale.x < _rd)
+        //{
+        //    transform.localScale += new Vector3(.002f, .002f, .002f);
+        //    yield return null;
+        //}
     }
 }

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CheckNextLevel : MonoBehaviour
 {
-    public GameObject LevelNext;
+    //public GameObject LevelNext;
 
-    public int index;
+    //public int index;
 
     public bool levelEnd = false;
 
